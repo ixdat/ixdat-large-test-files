@@ -1,0 +1,70 @@
+EC-Lab ASCII FILE
+Nb header lines : 49                          
+
+Open Circuit Voltage
+
+Run on channel : 1 (SN 5836)
+User : 
+Electrode connection : standard
+Ewe ctrl range : min = -5.00 V, max = 5.00 V
+Ewe,I filtering : 50 kHz
+Safety Limits :
+	Do not start on E overload
+Channel : Grounded
+Acquisition started on : 06/24/2022 13:13:57
+Technique started on : 06/24/2022 13:13:57
+Saved on :
+	File : 2022-06-24 13_13_40 5_EC_measurements_with_loop_01_01_OCV_DUSB0_C01.mpr
+	Directory : C:\Users\Spectro Inlets Lab_1\Dropbox (Spectro Inlets)\Development\Data\Kenneth reduced data\2022-06-24 13_13_40 5_EC_measurements_with_loop\
+	Host : 192.168.50.150
+Device : SP-200 (SN 0763)
+Address : USB
+EC-Lab for windows v11.27 (software)
+Internet server v11.25 (firmware)
+Command interpretor v11.27 (firmware)
+Electrode material : 
+Initial state : 
+Electrolyte : 
+Comments : 
+Cable : standard
+Electrode surface area : 0.001 cm²
+Characteristic mass : 0.001 g
+Equivalent Weight : 0.000 g/eq.
+Density : 0.000 g/cm3
+Record Ece
+Text export
+   Mode : Standard
+   Time format : Elapsed
+Cycle Definition : Charge/Discharge alternance
+tR (h:m:s)          0:00:10.0000        
+dER/dt (mV/h)       1.0                 
+dER (mV)            0.00                
+dtR (s)             0.5000              
+E range min (V)     -5.000              
+E range max (V)     5.000               
+
+Number of loops : 1
+Loop 0 from point number 0 to 20
+
+mode	error	time/s	Ewe/V	Ece/V	Ewe-Ece/V	
+3	1	0.000000000000000E+000	8.5495901E-001	1.0547562E+000	-1.9979715E-001
+3	0	4.999999873689376E-001	8.5494369E-001	1.0550998E+000	-2.0015615E-001
+3	0	9.999999747378752E-001	8.5492837E-001	1.0547562E+000	-1.9982779E-001
+3	0	1.499999962106813E+000	8.5489017E-001	1.0546875E+000	-1.9979733E-001
+3	0	1.999999949475750E+000	8.5484821E-001	1.0543782E+000	-1.9952995E-001
+3	0	2.499999936844688E+000	8.5480231E-001	1.0544469E+000	-1.9964463E-001
+3	0	2.999999924213625E+000	8.5477942E-001	1.0543439E+000	-1.9956452E-001
+3	0	3.499999911582563E+000	8.5472971E-001	1.0542408E+000	-1.9951111E-001
+3	0	3.999999898951501E+000	8.5468006E-001	1.0539659E+000	-1.9928586E-001
+3	0	4.499999886320438E+000	8.5461509E-001	1.0541034E+000	-1.9948828E-001
+3	0	4.999999873689376E+000	8.5459602E-001	1.0538971E+000	-1.9930112E-001
+3	0	5.499999861058313E+000	8.5453111E-001	1.0535191E+000	-1.9898802E-001
+3	0	5.999999848427251E+000	8.5453868E-001	1.0535536E+000	-1.9901490E-001
+3	0	6.499999835796189E+000	8.5446233E-001	1.0534505E+000	-1.9898814E-001
+3	0	6.999999823165126E+000	8.5452342E-001	1.0532444E+000	-1.9872093E-001
+3	0	7.499999810534064E+000	8.5444319E-001	1.0531756E+000	-1.9873238E-001
+3	0	7.999999797903001E+000	8.5440880E-001	1.0530726E+000	-1.9866377E-001
+3	0	8.499999785271939E+000	8.5435152E-001	1.0530381E+000	-1.9868660E-001
+3	0	8.999999772640876E+000	8.5435915E-001	1.0527977E+000	-1.9843853E-001
+3	0	9.499999760009814E+000	8.5427892E-001	1.0528663E+000	-1.9858742E-001
+3	0	9.999799747383804E+000	8.5425603E-001	1.0526601E+000	-1.9840407E-001
