@@ -1,0 +1,141 @@
+num_header_lines	Number of header lines		int	111
+num_data_header_lines	Number of data header lines (column description)		int	2
+data_start	Line number of data start (0-based)		int	113
+file_format_version	Version of the file format		int	2
+save_data	Whether to save the data or not	Iongauge value	bool	true
+save_interval	The minimum time between saved values	Iongauge value	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	Iongauge value	bool	true
+color	color	Iongauge value	int	2062260
+save_data	Whether to save the data or not	MFC1 setpoint	bool	true
+save_interval	The minimum time between saved values	MFC1 setpoint	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	MFC1 setpoint	bool	true
+color	color	MFC1 setpoint	int	16744206
+save_data	Whether to save the data or not	MFC1 value	bool	true
+save_interval	The minimum time between saved values	MFC1 value	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	MFC1 value	bool	true
+color	color	MFC1 value	int	2924588
+save_data	Whether to save the data or not	MFC2 setpoint	bool	true
+save_interval	The minimum time between saved values	MFC2 setpoint	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	MFC2 setpoint	bool	true
+color	color	MFC2 setpoint	int	14034728
+save_data	Whether to save the data or not	MFC2 value	bool	true
+save_interval	The minimum time between saved values	MFC2 value	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	MFC2 value	bool	true
+color	color	MFC2 value	int	9725885
+save_data	Whether to save the data or not	PC setpoint	bool	true
+save_interval	The minimum time between saved values	PC setpoint	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	PC setpoint	bool	true
+color	color	PC setpoint	int	9197131
+save_data	Whether to save the data or not	PC value	bool	true
+save_interval	The minimum time between saved values	PC value	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	PC value	bool	true
+color	color	PC value	int	14907330
+save_data	Whether to save the data or not	Pirani1 value	bool	true
+save_interval	The minimum time between saved values	Pirani1 value	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	Pirani1 value	bool	true
+color	color	Pirani1 value	int	8355711
+save_data	Whether to save the data or not	Pirani2 value	bool	true
+save_interval	The minimum time between saved values	Pirani2 value	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	Pirani2 value	bool	true
+color	color	Pirani2 value	int	12369186
+save_data	Whether to save the data or not	Pirani3 value	bool	true
+save_interval	The minimum time between saved values	Pirani3 value	double	1000.0
+subscribe	Whether to send events out on the web API for this channel	Pirani3 value	bool	true
+color	color	Pirani3 value	int	1556175
+mass	Measurement mass	C0M2	double	2.0
+lead_in_multiplier	Lead in multiplier	C0M2	int	1
+dwell_time	Dwell time [ms]	C0M2	int	32
+label_suffix	Label suffix (added to the mass to form the full label)	C0M2	string	H2
+subscribe	Whether to send events out on the web API for this channel	C0M2	bool	true
+color	color	C0M2	int	2062260
+mass	Measurement mass	C1M4	double	4.0
+lead_in_multiplier	Lead in multiplier	C1M4	int	1
+dwell_time	Dwell time [ms]	C1M4	int	32
+label_suffix	Label suffix (added to the mass to form the full label)	C1M4	string	He
+subscribe	Whether to send events out on the web API for this channel	C1M4	bool	true
+color	color	C1M4	int	14907330
+mass	Measurement mass	C2M18	double	18.0
+lead_in_multiplier	Lead in multiplier	C2M18	int	1
+dwell_time	Dwell time [ms]	C2M18	int	32
+label_suffix	Label suffix (added to the mass to form the full label)	C2M18	string	H2O
+subscribe	Whether to send events out on the web API for this channel	C2M18	bool	true
+color	color	C2M18	int	12369186
+mass	Measurement mass	C3M28	double	28.0
+lead_in_multiplier	Lead in multiplier	C3M28	int	4
+dwell_time	Dwell time [ms]	C3M28	int	32
+label_suffix	Label suffix (added to the mass to form the full label)	C3M28	string	CO/N2
+subscribe	Whether to send events out on the web API for this channel	C3M28	bool	true
+color	color	C3M28	int	8355711
+mass	Measurement mass	C4M32	double	32.0
+lead_in_multiplier	Lead in multiplier	C4M32	int	1
+dwell_time	Dwell time [ms]	C4M32	int	32
+label_suffix	Label suffix (added to the mass to form the full label)	C4M32	string	O2
+subscribe	Whether to send events out on the web API for this channel	C4M32	bool	true
+color	color	C4M32	int	0
+mass	Measurement mass	C5M40	double	40.0
+lead_in_multiplier	Lead in multiplier	C5M40	int	1
+dwell_time	Dwell time [ms]	C5M40	int	32
+label_suffix	Label suffix (added to the mass to form the full label)	C5M40	string	Ar
+subscribe	Whether to send events out on the web API for this channel	C5M40	bool	true
+color	color	C5M40	int	1556175
+mass	Measurement mass	C6M44	double	44.0
+lead_in_multiplier	Lead in multiplier	C6M44	int	1
+dwell_time	Dwell time [ms]	C6M44	int	32
+label_suffix	Label suffix (added to the mass to form the full label)	C6M44	string	CO2
+subscribe	Whether to send events out on the web API for this channel	C6M44	bool	true
+color	color	C6M44	int	14034728
+data_dir	Data directory		string	C:\Users\Spectro Inlets\Spectro Inlets Dropbox\03 LGA\In-line MS\Chip testing on EC-MS setup
+project_name	Project name		string	failing_datasets
+measurement_name	Measurement name		string	no-ec-nonincluded
+comment	Comment		string	Normal EC-MS chip
+ms_scan_interval	Mass spec scan interval [ms]		int	0
+ms_lead_in_base	Mass spec lead in base [ms]		int	32
+start_time_unix	Start time as UNIX time stamp		double	1705500406.637573
+start_timestamp	Start time in ISO 8601 format		string	2024-01-17 15:06:46.637573
+Iongauge value_count	Number of points in the "Iongauge value" data series	Iongauge value	int	28
+Pirani1 value_count	Number of points in the "Pirani1 value" data series	Pirani1 value	int	28
+Pirani2 value_count	Number of points in the "Pirani2 value" data series	Pirani2 value	int	28
+Pirani3 value_count	Number of points in the "Pirani3 value" data series	Pirani3 value	int	28
+MFC1 value_count	Number of points in the "MFC1 value" data series	MFC1 value	int	28
+MFC1 setpoint_count	Number of points in the "MFC1 setpoint" data series	MFC1 setpoint	int	28
+MFC2 value_count	Number of points in the "MFC2 value" data series	MFC2 value	int	28
+MFC2 setpoint_count	Number of points in the "MFC2 setpoint" data series	MFC2 setpoint	int	28
+PC value_count	Number of points in the "PC value" data series	PC value	int	28
+PC setpoint_count	Number of points in the "PC setpoint" data series	PC setpoint	int	28
+C0M2_count	Number of points in the "C0M2" data series	C0M2	int	18
+C1M4_count	Number of points in the "C1M4" data series	C1M4	int	18
+C2M18_count	Number of points in the "C2M18" data series	C2M18	int	18
+C3M28_count	Number of points in the "C3M28" data series	C3M28	int	18
+C4M32_count	Number of points in the "C4M32" data series	C4M32	int	18
+C5M40_count	Number of points in the "C5M40" data series	C5M40	int	18
+C6M44_count	Number of points in the "C6M44" data series	C6M44	int	18
+Iongauge value		MFC1 setpoint		MFC1 value		MFC2 setpoint		MFC2 value		PC setpoint		PC value		Pirani1 value		Pirani2 value		Pirani3 value		C0M2		C1M4		C2M18		C3M28		C4M32		C5M40		C6M44	
+Time [s]	Pressure [mbar]	Time [s]	Flow [ml/min]	Time [s]	Flow [ml/min]	Time [s]	Flow [ml/min]	Time [s]	Flow [ml/min]	Time [s]	Pressure [mbar]	Time [s]	Pressure [mbar]	Time [s]	Pressure [mbar]	Time [s]	Pressure [mbar]	Time [s]	Pressure [mbar]	Time [s]	M2-H2 [A]	Time [s]	M4-He [A]	Time [s]	M18-H2O [A]	Time [s]	M28-CO/N2 [A]	Time [s]	M32-O2 [A]	Time [s]	M40-Ar [A]	Time [s]	M44-CO2 [A]
+3.105299e-01	4.510000e-06	5.143309e-01	0.000000e+00	5.143309e-01	-2.900000e-02	5.614672e-01	0.000000e+00	5.614672e-01	-1.900000e-02	6.084137e-01	1.040000e+03	6.084137e-01	9.921717e+02	3.576787e-01	1.830000e-03	4.049222e-01	2.420000e-03	4.679296e-01	1.440000e-03	6.644547e-01	6.232725e-12	7.384249e-01	5.985878e-16	8.133948e-01	8.837285e-11	9.943221e-01	4.945946e-10	1.069292e+00	9.940154e-11	1.143262e+00	7.673077e-12	1.218232e+00	6.184246e-13
+7.958646e-01	4.530000e-06	9.831526e-01	0.000000e+00	9.831526e-01	-2.900000e-02	1.030385e+00	0.000000e+00	1.030385e+00	-1.900000e-02	1.076612e+00	1.040000e+03	1.076612e+00	9.921717e+02	8.422298e-01	1.830000e-03	8.888149e-01	2.450000e-03	9.362707e-01	1.440000e-03	1.333689e+00	6.251727e-12	1.408689e+00	4.414484e-15	1.482689e+00	8.849353e-11	1.664689e+00	4.911235e-10	1.739689e+00	9.897976e-11	1.813689e+00	7.684498e-12	1.888690e+00	6.216646e-13
+1.262990e+00	4.550000e-06	1.452088e+00	0.000000e+00	1.452088e+00	-2.900000e-02	1.498817e+00	0.000000e+00	1.498817e+00	-1.900000e-02	1.545854e+00	1.040000e+03	1.545854e+00	9.921584e+02	1.310755e+00	1.830000e-03	1.357640e+00	2.480000e-03	1.405143e+00	1.440000e-03	2.003780e+00	6.234583e-12	2.078784e+00	1.404940e-14	2.152787e+00	8.892362e-11	2.334796e+00	4.924086e-10	2.408800e+00	9.928854e-11	2.483803e+00	7.672442e-12	2.557807e+00	6.408251e-13
+1.719044e+00	4.570000e-06	1.951834e+00	0.000000e+00	1.951834e+00	-2.900000e-02	1.999823e+00	0.000000e+00	1.999823e+00	-2.000000e-02	2.046424e+00	1.040000e+03	2.046424e+00	9.921451e+02	1.779462e+00	1.820000e-03	1.842234e+00	2.500000e-03	1.904754e+00	1.440000e-03	2.673812e+00	6.247665e-12	2.748816e+00	4.151234e-16	2.822819e+00	8.915339e-11	3.004828e+00	4.899008e-10	3.078832e+00	9.938252e-11	3.153835e+00	7.676111e-12	3.227839e+00	6.262208e-13
+2.235555e+00	4.590000e-06	2.423802e+00	0.000000e+00	2.423802e+00	-2.900000e-02	2.470685e+00	0.000000e+00	2.470685e+00	-1.900000e-02	2.517799e+00	1.040000e+03	2.517799e+00	9.921851e+02	2.283172e+00	1.820000e-03	2.330095e+00	2.530000e-03	2.376163e+00	1.440000e-03	3.343488e+00	6.241853e-12	3.417483e+00	8.326770e-15	3.492479e+00	8.934817e-11	3.673468e+00	4.917010e-10	3.748463e+00	9.958989e-11	3.822459e+00	7.689576e-12	3.897454e+00	6.432672e-13
+2.722160e+00	4.610000e-06	2.909851e+00	0.000000e+00	2.909851e+00	-2.900000e-02	2.956619e+00	0.000000e+00	2.956619e+00	-1.900000e-02	3.003469e+00	1.040000e+03	3.003469e+00	9.921717e+02	2.769626e+00	1.820000e-03	2.816484e+00	2.560000e-03	2.862936e+00	1.440000e-03	4.013815e+00	6.241837e-12	4.087818e+00	3.158988e-15	4.162820e+00	8.926480e-11	4.343826e+00	4.906813e-10	4.418828e+00	9.954774e-11	4.492831e+00	7.649498e-12	4.567833e+00	6.309715e-13
+3.203996e+00	4.630000e-06	3.443735e+00	0.000000e+00	3.443735e+00	-2.900000e-02	3.490429e+00	0.000000e+00	3.490429e+00	-1.900000e-02	3.536300e+00	1.040000e+03	3.536300e+00	9.921584e+02	3.267747e+00	1.820000e-03	3.331423e+00	2.590000e-03	3.395550e+00	1.440000e-03	4.682837e+00	6.239200e-12	4.757839e+00	6.030428e-15	4.831842e+00	8.966400e-11	5.013848e+00	4.905384e-10	5.088850e+00	1.001156e-10	5.162853e+00	7.623387e-12	5.237855e+00	6.389297e-13
+3.726053e+00	4.640000e-06	3.912383e+00	0.000000e+00	3.912383e+00	-2.900000e-02	3.958640e+00	0.000000e+00	3.958640e+00	-1.900000e-02	4.005137e+00	1.040000e+03	4.005137e+00	9.921584e+02	3.772099e+00	1.820000e-03	3.818839e+00	2.620000e-03	3.865879e+00	1.430000e-03	5.353056e+00	6.234810e-12	5.428061e+00	2.174842e-15	5.502066e+00	8.963952e-11	5.684079e+00	4.876970e-10	5.758084e+00	1.000137e-10	5.833089e+00	7.627407e-12	5.907094e+00	6.322229e-13
+4.191082e+00	4.660000e-06	4.378682e+00	0.000000e+00	4.378682e+00	-2.900000e-02	4.424964e+00	0.000000e+00	4.424964e+00	-1.900000e-02	4.471960e+00	1.040000e+03	4.471960e+00	9.921451e+02	4.237857e+00	1.820000e-03	4.284953e+00	2.650000e-03	4.331565e+00	1.430000e-03	6.022179e+00	6.207165e-12	6.097172e+00	1.621209e-14	6.171166e+00	8.941816e-11	6.353150e+00	4.879476e-10	6.427144e+00	1.000347e-10	6.502138e+00	7.639305e-12	6.576131e+00	6.211826e-13
+4.657417e+00	4.670000e-06	4.861737e+00	0.000000e+00	4.861737e+00	-2.900000e-02	4.909215e+00	0.000000e+00	4.909215e+00	-1.900000e-02	4.956646e+00	1.040000e+03	4.956646e+00	9.921851e+02	4.704343e+00	1.820000e-03	4.750868e+00	2.680000e-03	4.814031e+00	1.430000e-03	6.692121e+00	6.195412e-12	6.766115e+00	1.793738e-14	6.841109e+00	8.960940e-11	7.022093e+00	4.886907e-10	7.097087e+00	1.002900e-10	7.171080e+00	7.559934e-12	7.246074e+00	6.465275e-13
+5.144673e+00	4.680000e-06	5.331606e+00	0.000000e+00	5.331606e+00	-2.900000e-02	5.379344e+00	0.000000e+00	5.379344e+00	-1.900000e-02	5.425122e+00	1.040000e+03	5.425122e+00	9.921451e+02	5.190910e+00	1.820000e-03	5.237776e+00	2.710000e-03	5.284880e+00	1.430000e-03	7.362221e+00	6.194793e-12	7.436216e+00	8.423980e-16	7.511212e+00	8.935686e-11	7.692200e+00	4.863391e-10	7.767195e+00	1.006141e-10	7.841190e+00	7.604300e-12	7.916186e+00	6.543804e-13
+5.614949e+00	4.690000e-06	5.803623e+00	0.000000e+00	5.803623e+00	-2.900000e-02	5.849859e+00	0.000000e+00	5.849859e+00	-1.900000e-02	5.897786e+00	1.040000e+03	5.897786e+00	9.921851e+02	5.662240e+00	1.820000e-03	5.708811e+00	2.740000e-03	5.756677e+00	1.430000e-03	8.031731e+00	6.171270e-12	8.106732e+00	2.204812e-14	8.180732e+00	8.898850e-11	8.362733e+00	4.864525e-10	8.437733e+00	1.002854e-10	8.511734e+00	7.560723e-12	8.586734e+00	6.511565e-13
+6.104075e+00	4.700000e-06	6.293549e+00	0.000000e+00	6.293549e+00	-2.900000e-02	6.340124e+00	0.000000e+00	6.340124e+00	-1.900000e-02	6.372106e+00	1.040000e+03	6.372106e+00	9.921451e+02	6.151715e+00	1.820000e-03	6.198736e+00	2.770000e-03	6.245928e+00	1.430000e-03	8.701813e+00	6.185056e-12	8.776814e+00	9.201566e-15	8.850816e+00	8.895683e-11	9.032818e+00	4.869823e-10	9.106819e+00	1.008363e-10	9.181820e+00	7.575951e-12	9.255821e+00	6.673080e-13
+6.559134e+00	4.710000e-06	6.761573e+00	0.000000e+00	6.761573e+00	-2.900000e-02	6.809249e+00	0.000000e+00	6.809249e+00	-2.000000e-02	6.855419e+00	1.040000e+03	6.855419e+00	9.920517e+02	6.622150e+00	1.820000e-03	6.668747e+00	2.800000e-03	6.715968e+00	1.430000e-03	9.371823e+00	6.151761e-12	9.446824e+00	2.125027e-14	9.520825e+00	8.868412e-11	9.702828e+00	4.866630e-10	9.776829e+00	1.005565e-10	9.851830e+00	7.588728e-12	9.925831e+00	6.672066e-13
+7.042126e+00	4.720000e-06	7.277339e+00	0.000000e+00	7.277339e+00	-2.900000e-02	7.324206e+00	0.000000e+00	7.324206e+00	-1.900000e-02	7.371626e+00	1.040000e+03	7.371626e+00	9.921317e+02	7.105199e+00	1.810000e-03	7.168519e+00	2.830000e-03	7.231137e+00	1.430000e-03	1.004141e+01	6.126983e-12	1.011541e+01	7.067224e-15	1.019041e+01	8.848997e-11	1.037140e+01	4.824938e-10	1.044640e+01	1.011313e-10	1.052040e+01	7.539213e-12	1.059540e+01	6.683487e-13
+7.557820e+00	4.730000e-06	7.760099e+00	0.000000e+00	7.760099e+00	-2.900000e-02	7.808721e+00	0.000000e+00	7.808721e+00	-1.900000e-02	7.854908e+00	1.040000e+03	7.854908e+00	9.921717e+02	7.604119e+00	1.810000e-03	7.651030e+00	2.850000e-03	7.713950e+00	1.430000e-03	1.071154e+01	6.133650e-12	1.078554e+01	4.467134e-15	1.086054e+01	8.817032e-11	1.104153e+01	4.866575e-10	1.111653e+01	1.000067e-10	1.119053e+01	7.595387e-12	1.126553e+01	6.672715e-13
+8.045160e+00	4.740000e-06	8.230673e+00	0.000000e+00	8.230673e+00	-2.900000e-02	8.276202e+00	0.000000e+00	8.276202e+00	-1.900000e-02	8.323426e+00	1.040000e+03	8.323426e+00	9.921184e+02	8.091433e+00	1.810000e-03	8.137766e+00	2.880000e-03	8.184593e+00	1.430000e-03	1.138053e+01	6.120507e-12	1.145553e+01	1.471765e-14	1.152953e+01	8.817427e-11	1.171152e+01	4.873543e-10	1.178652e+01	1.007448e-10	1.186052e+01	7.520749e-12	1.193552e+01	6.531896e-13
+8.511462e+00	4.750000e-06	8.733295e+00	0.000000e+00	8.733295e+00	-2.900000e-02	8.780126e+00	0.000000e+00	8.780126e+00	-1.900000e-02	8.827741e+00	1.040000e+03	8.827741e+00	9.921317e+02	8.560127e+00	1.810000e-03	8.624193e+00	2.910000e-03	8.687696e+00	1.430000e-03	1.205106e+01	6.110670e-12	1.212606e+01	1.229980e-14	1.220007e+01	8.778898e-11	1.238207e+01	4.859905e-10	1.245607e+01	1.009764e-10	1.253108e+01	7.493253e-12	1.260508e+01	6.703090e-13
+9.015780e+00	4.760000e-06	9.205225e+00	0.000000e+00	9.205225e+00	-2.900000e-02	9.250999e+00	0.000000e+00	9.250999e+00	-2.000000e-02	9.313541e+00	1.040000e+03	9.313541e+00	9.920917e+02	9.061521e+00	1.810000e-03	9.110059e+00	2.940000e-03	9.157285e+00	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+9.499923e+00	4.760000e-06	9.686685e+00	0.000000e+00	9.686685e+00	-2.900000e-02	9.734007e+00	0.000000e+00	9.734007e+00	-1.900000e-02	9.780437e+00	1.040000e+03	9.780437e+00	9.921984e+02	9.546643e+00	1.810000e-03	9.592994e+00	2.970000e-03	9.639822e+00	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+9.967334e+00	4.770000e-06	1.015483e+01	0.000000e+00	1.015483e+01	-2.900000e-02	1.020109e+01	0.000000e+00	1.020109e+01	-1.900000e-02	1.024730e+01	1.040000e+03	1.024730e+01	9.921851e+02	1.001363e+01	1.810000e-03	1.005999e+01	3.000000e-03	1.010755e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+1.041928e+01	4.780000e-06	1.063671e+01	0.000000e+00	1.063671e+01	-2.900000e-02	1.068331e+01	0.000000e+00	1.068331e+01	-2.000000e-02	1.073023e+01	1.040000e+03	1.073023e+01	9.921984e+02	1.046611e+01	1.810000e-03	1.052792e+01	3.020000e-03	1.058957e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+1.091972e+01	4.780000e-06	1.110784e+01	0.000000e+00	1.110784e+01	-2.900000e-02	1.115456e+01	0.000000e+00	1.115456e+01	-2.000000e-02	1.118616e+01	1.040000e+03	1.118616e+01	9.921984e+02	1.096650e+01	1.810000e-03	1.101347e+01	3.050000e-03	1.106042e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+1.137466e+01	4.790000e-06	1.159662e+01	0.000000e+00	1.159662e+01	-2.900000e-02	1.164472e+01	0.000000e+00	1.164472e+01	-2.000000e-02	1.168986e+01	1.040000e+03	1.168986e+01	9.922117e+02	1.142199e+01	1.810000e-03	1.148577e+01	3.080000e-03	1.154987e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+1.186054e+01	4.790000e-06	1.206283e+01	0.000000e+00	1.206283e+01	-2.900000e-02	1.210986e+01	0.000000e+00	1.210986e+01	-1.900000e-02	1.215659e+01	1.040000e+03	1.215659e+01	9.921984e+02	1.190776e+01	1.810000e-03	1.195428e+01	3.110000e-03	1.201652e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+1.234503e+01	4.800000e-06	1.253351e+01	0.000000e+00	1.253351e+01	-2.900000e-02	1.257976e+01	0.000000e+00	1.257976e+01	-2.000000e-02	1.262661e+01	1.040000e+03	1.262661e+01	9.921851e+02	1.239289e+01	1.810000e-03	1.243978e+01	3.130000e-03	1.248645e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+1.281349e+01	4.810000e-06	1.300108e+01	0.000000e+00	1.300108e+01	-2.900000e-02	1.304785e+01	0.000000e+00	1.304785e+01	-1.900000e-02	1.309503e+01	1.040000e+03	1.309503e+01	9.921584e+02	1.286007e+01	1.810000e-03	1.290621e+01	3.160000e-03	1.295356e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+1.326544e+01	4.810000e-06	1.348529e+01	0.000000e+00	1.348529e+01	-2.900000e-02	1.353313e+01	0.000000e+00	1.353313e+01	-2.000000e-02	1.358001e+01	1.040000e+03	1.358001e+01	9.921984e+02	1.332792e+01	1.800000e-03	1.339054e+01	3.190000e-03	1.343842e+01	1.420000e-03	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
